@@ -33,3 +33,13 @@ To learn more about the technologies used in this site template, see the followi
 - [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
 - [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+
+
+部署需要
+npm run build
+npm start 
+
+只能前台部署
+后台部署需要用pm2
+
+用dist图片会有404问题
