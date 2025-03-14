@@ -26,10 +26,17 @@ This site template is a commercial product and is licensed under the [Tailwind U
 
 
 部署需要
+```bash
 npm run build
 npm start 
-
+```
 只能前台部署
 后台部署需要用pm2
+
+```bash
+npm install
+npm run build
+pm2 start --name yourappname npm -- start
+```
 
 用dist图片会有404问题
